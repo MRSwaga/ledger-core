@@ -1,0 +1,13 @@
+package dev.mrswaga.ledger_core;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class LedgerCoreApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(LedgerCoreApplication.class, args);
+	}
+
+}
